@@ -11,11 +11,11 @@ import mysql.connector as mysql
 # In[4]:
 
 
-#coonecting sql
+#conecting sql
 mydb=mysql.connect(
       host="localhost",
       user="root",
-      password="Positive011205?",
+      password="**password**",
       )
 mycursor=mydb.cursor(buffered=True)
 
@@ -34,7 +34,7 @@ mycursor.execute("CREATE DATABASE card")
 mydb=mysql.connect(
       host="localhost",
       user="root",
-      password="Positive011205?",
+      password="**password**",
       database="card"
       )
 mycursor=mydb.cursor(buffered=True)
