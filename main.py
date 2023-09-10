@@ -21,7 +21,7 @@ st.set_page_config(page_title= "BIZCARDX",
 mydb=mysql.connect(
       host="localhost",
       user="root",
-      password="Positive011205?",
+      password="**password**",
       database="card"
       )
 mycursor=mydb.cursor(buffered=True)
