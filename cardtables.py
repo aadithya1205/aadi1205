@@ -30,7 +30,7 @@ mycursor.execute("CREATE DATABASE card")
 # In[6]:
 
 
-#connecting asql with new database
+#connecting sql with new database
 mydb=mysql.connect(
       host="localhost",
       user="root",
